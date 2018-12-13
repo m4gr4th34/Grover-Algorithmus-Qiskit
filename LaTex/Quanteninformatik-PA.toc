@@ -1,0 +1,12 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Der Quantencomputer}{1}
+\contentsline {subsection}{\numberline {1.1}Quantencomputer vs. klassische Computer}{2}
+\contentsline {subsubsection}{\numberline {1.1.1}\IeC {\guillemotright }Die Natur ist nicht klassisch, verdammt, und wenn man die Natur simulieren will, muss man es deshalb quantenmechanisch machen\IeC {\guillemotleft } (Richard Feynman)}{2}
+\contentsline {subsubsection}{\numberline {1.1.2}Umsetzung}{3}
+\contentsline {subsubsection}{\numberline {1.1.3}Problem 1: von einem zu vielen Qubits}{3}
+\contentsline {subsubsection}{\numberline {1.1.4}Problem 2: Quantencomputer programmieren}{3}
+\contentsline {subsubsection}{\numberline {1.1.5}Problem 3: Empfindlichkeit}{4}
+\contentsline {subsubsection}{\numberline {1.1.6}Problem 3: Error-Korrektur}{4}
+\contentsline {section}{\numberline {2}Die Theorie der Quanteninformatik}{5}
+\contentsline {subsection}{\numberline {2.1}Zweizustandsystem}{5}
+\contentsline {subsection}{\numberline {2.2}Das Klassiche Bit - Cbit}{6}

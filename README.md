@@ -22,7 +22,7 @@ Hier werden Grundlegende Bereiche der Quanteninformatik und des Grover Algorithm
 Grover Algorithmus Quelltext mit bis zu 3 Qbits in Python.  
 
 ## [LaTex](https://github.com/soultanis/Grover-Algorithmus-Qiskit/tree/master/LaTex)
-Zusammenfassung als Paper der Arbeit.
+Zusammenfassung der Arbeit als Paper.
 
 ## [Sitzungsprotokolle](https://github.com/soultanis/Grover-Algorithmus-Qiskit/tree/master/Sitzungsprotokolle)
 Festgehaltene Sitzungsprotokolle mit Prof. Dr. Kurt Stockinger und Prof. Dr. Ruedi Füchslin von der ZHAW School of Engineering

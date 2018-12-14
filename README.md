@@ -1,5 +1,5 @@
 # Grover Algorithmus Qiskit
-Eine Implementation des Grover Algorithmus mit [Qiskit](https://qiskit.org/) von [IBM](https://www.ibm.com/ch-de/?ar=1).
+In diesem Repo wird der Grover Algorithmus von der Theorie bis hin zur Implementation mit [Qiskit](https://qiskit.org/) von [IBM](https://www.ibm.com/ch-de/?ar=1) erklärt.
 
 ## Voraussetzungen
 Unter [Qiskit](https://github.com/Qiskit) ist alles sehr gut dokumentiert. Voraussetzungen sind:

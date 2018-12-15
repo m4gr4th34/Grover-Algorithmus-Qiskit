@@ -1,2 +1,24 @@
-# Jupyter-Notebook
-Öffne es mit Jupyter-Notebook.
+# AH
+<p align="center"><img alt="$$f_{NOT}(|x\rangle): |x\rangle \to |\bar{x}\rangle$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/6f123e2cc3849b8ca64388955e0edfb8.svg" align="middle" width="153.5184156pt" height="16.438356pt"/></p>
+<p align="center"><img alt="$$f_{NOT}(|1\rangle)= \bar{|1\rangle} = |0\rangle$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/3b352a5af037102e59bfbffefc86ffad.svg" align="middle" width="154.5573315pt" height="18.6940677pt"/></p>
+<p align="center"><img alt="$$f_{NOT}(|0\rangle)= \bar{|0\rangle} = |1\rangle \,\,\,\,\,\,\,\,(1.5)$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/7ef19060dc3fc95ab2c99ce835db84ee.svg" align="middle" width="210.26468099999997pt" height="18.6940677pt"/></p>
+
+Die NOT-Funktion ist reversibel, da sie ein Inverses hat: führt man die NOT-Funktion zweimal hintereinander aus, dann erhält man den ursprünglichen Input.
+
+<p align="center"><img alt="$$X^2=f_{NOT}(|1\rangle)^2 = f_{NOT}(f_{NOT}(|1\rangle)) = f_{NOT}(\bar{|1\rangle}) = f_{NOT}(|0\rangle) = \bar{|0\rangle} = |1\rangle\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,(1.6)$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/e3c9560987409218e66a5af2c2ec9de3.svg" align="middle" width="619.7950242pt" height="18.6940677pt"/></p>
+
+
+Ein "praktisches" Beispiel: Es sei Mitteilung <img alt="$M =$" src="https://rawgit.com/leegao/readme2tex/master/svgs/34e5483cf691c1565ce500dcf14a9f54.svg" align="middle" width="35.09124794999999pt" height="22.465723500000017pt"/> "Ich bin schwanger." und die Verneinungs-Funktion <img alt="$f_{nein}()$" src="https://rawgit.com/leegao/readme2tex/master/svgs/1e3765721cc87b51a5d2c372f44ebcde.svg" align="middle" width="48.79515629999999pt" height="24.65753399999998pt"/> . Nun teilt einem die Freundin mit:
+<p align="center"><img alt='$$f_{nein}(M)^2=f_{nein}("Ich\,bin\,schwanger")^2=f_{nein}("Ich\,bin\,nicht\,schwanger")="Ich\,bin\,nicht\,unschwanger"="Ich\,bin\,schwanger"$$' src="https://rawgit.com/leegao/readme2tex/master/svgs/d1a13bdd8f6c250b70a69dd950125b03.svg" align="middle" width="961.8763175999999pt" height="18.312383099999998pt"/></p>
+
+Allgemein gilt
+<p align="center"><img alt="$$f_{NOT}()^{2^n} = 1 \,\,\,\,\,\,\,\,(1.7)$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/fbd65714b74c342f3050b28b3a6df477.svg" align="middle" width="154.46763585pt" height="19.3964133pt"/></p>
+wobei die <img alt="$1$" src="https://rawgit.com/leegao/readme2tex/master/svgs/034d0a6be0424bffe9a6e7ac9236c0f5.svg" align="middle" width="8.219209349999991pt" height="21.18721440000001pt"/> die Identitätsmatrix ist.
+
+Nicht nur die NOT-Operation, sondern jede beliebige auf C- und Qbits angewendete Operationen sind im Grunde nichts weiter als Matrixmultiplikationen.
+Wenn wir nun die orthogonalen Zustände unserer Cbits mithilfe von Vektoren (verlinkung nach oben) darstellen wollen, dann kann man die NOT-Operation folgendermassen tun:
+<p align="center"><img alt="$$X = \left(\begin{array}{cc} 0&amp; \dots &amp;1\\ \vdots&amp; 1 &amp;\vdots\\1&amp; \dots &amp;0\\\end{array}\right) \,\,\,\,\,\,\,\,(1.8)$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/d54b0d94e399a185656f7f63f0e235cf.svg" align="middle" width="187.05404355pt" height="138.08357145pt"/></p>
+Wenn wir nun <img alt="$X$" src="https://rawgit.com/leegao/readme2tex/master/svgs/cbfb1b2a33b28eab8a3e59464768e810.svg" align="middle" width="14.908688849999992pt" height="22.465723500000017pt"/> auf einen Zustand anwenden, dann ergbit es das Komplement. Wenden wir jedoch <img alt="$2^n$" src="https://rawgit.com/leegao/readme2tex/master/svgs/f8f25e4580c418a51dc556db0d8d2b93.svg" align="middle" width="16.34523329999999pt" height="21.839370299999988pt"/>-mal <img alt="$X$" src="https://rawgit.com/leegao/readme2tex/master/svgs/cbfb1b2a33b28eab8a3e59464768e810.svg" align="middle" width="14.908688849999992pt" height="22.465723500000017pt"/> an, dann entsteht die Indentitätsmatrix, was identisch mit der Multiplikation von <img alt="$1$" src="https://rawgit.com/leegao/readme2tex/master/svgs/034d0a6be0424bffe9a6e7ac9236c0f5.svg" align="middle" width="8.219209349999991pt" height="21.18721440000001pt"/> ist:
+<p align="center"><img alt="$$1=\left(\begin{array}{cc} 1&amp; \dots &amp;0\\ \vdots&amp; 1 &amp;\vdots\\0&amp; \dots &amp;1\\\end{array}\right) \,\,\,\,\,\,\,\,(1.9)$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/b98e081b0318419d873c061e0aa53cbe.svg" align="middle" width="180.36458714999998pt" height="138.08357145pt"/></p>
+
+<img alt="$X$" src="https://rawgit.com/leegao/readme2tex/master/svgs/cbfb1b2a33b28eab8a3e59464768e810.svg" align="middle" width="14.908688849999992pt" height="22.465723500000017pt"/> und <img alt="$1$" src="https://rawgit.com/leegao/readme2tex/master/svgs/034d0a6be0424bffe9a6e7ac9236c0f5.svg" align="middle" width="8.219209349999991pt" height="21.18721440000001pt"/> sind die einzigen zwei reversiblen Operationen auf ein __einzelnes__ Cbit.

@@ -1,3 +1,5 @@
+<img src="README-src/Logo-School-of-Engineering.jpg" alt="ZHAW" width="150"/>
+
 # Grover Algorithmus Qiskit
 In diesem Repo wird der Grover Algorithmus von der Theorie bis hin zur Implementation mit [Qiskit](https://qiskit.org/) von [IBM](https://www.ibm.com/ch-de/?ar=1) erklärt.
 

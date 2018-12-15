@@ -1,7 +1,7 @@
 # AH
-<p align="center"><img alt="$$f_{NOT}(|x\rangle): |x\rangle \to |\bar{x}\rangle$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/6f123e2cc3849b8ca64388955e0edfb8.svg" align="middle" width="153.5184156pt" height="16.438356pt"/></p>
-<p align="center"><img alt="$$f_{NOT}(|1\rangle)= \bar{|1\rangle} = |0\rangle$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/3b352a5af037102e59bfbffefc86ffad.svg" align="middle" width="154.5573315pt" height="18.6940677pt"/></p>
-<p align="center"><img alt="$$f_{NOT}(|0\rangle)= \bar{|0\rangle} = |1\rangle \,\,\,\,\,\,\,\,(1.5)$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/7ef19060dc3fc95ab2c99ce835db84ee.svg" align="middle" width="210.26468099999997pt" height="18.6940677pt"/></p>
+<p align="center"><img alt="$$&#10;f_{NOT}(|x\rangle): |x\rangle \to |\bar{x}\rangle&#10;$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/87b102e876e55e0ca0e8e47bbb0a2208.svg" align="middle" width="153.5184156pt" height="16.438356pt"/></p>
+<p align="center"><img alt="$$&#10;f_{NOT}(|1\rangle)= \bar{|1\rangle} = |0\rangle&#10;$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/a6904d04715acdcaf621ba7f7f3a3f70.svg" align="middle" width="154.5573315pt" height="18.6940677pt"/></p>
+<p align="center"><img alt="$$&#10;f_{NOT}(|0\rangle)= \bar{|0\rangle} = |1\rangle \,\,\,\,\,\,\,\,(1.5)&#10;$$" src="https://rawgit.com/leegao/readme2tex/master/svgs/fdb5aee0df2b8adfb512d860b947590c.svg" align="middle" width="210.26468099999997pt" height="18.6940677pt"/></p>
 
 Die NOT-Funktion ist reversibel, da sie ein Inverses hat: führt man die NOT-Funktion zweimal hintereinander aus, dann erhält man den ursprünglichen Input.
 

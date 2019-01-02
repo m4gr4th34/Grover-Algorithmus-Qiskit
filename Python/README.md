@@ -1,22 +1,13 @@
 # Python
 An implementation of Grover's algorithm on qiskit.
 
-## Prerequisites ##
-It requires the [qiskit development kit](https://github.com/Qiskit/qiskit-terra), version 0.6.0. Take a look at the repo for a full reference, or just install it using
+## Übersicht
+Um eine eine Übersicht der Funktionen zu erhalten ist die Datei `python grover_test.py -h` auszuführen.
 
-```
-pip install qiskit
-```
-
-Note that, in order to run a simulation on a real device, you also need to get an account from ibmq. The qiskit repository contains all the necessary info.
-
-## Usage ##
-Check the `grover_test.py` file. Run `python grover_test.py -h` to get an idea on how it works.
-
-### As a module ###
-Import the `grover_test` module in a python interpreter and run the `build_and_run(n, x_star, real, backend_name)` function. 
-  * `n` is the number of qubits (2 or 3)
-  * `x_star` are the marked state (between 0 and 2**n), i.e. the states for which the oracle function returns 1. In general, the oracle should be a black box emitting 1 only on a given set of input states. Obviously, in our case, we have to build the oracle ourself. Note that at the moment multiple input states can be inserted, but the result are not really tested.
+### Als Modul
+Importiere das `grover_test` Modul in einem Python Interpreter und führe die Funktion `build_and_run(n, x_star, real, backend_name)` aus. Dabei ist:
+  * `n` die Anzahl der Qubits (2 oder 3)
+  * `x_star` ist der markierte Zustand (zwischen 0 und 2**n), d.h. der Zustand für den das Orakel 1 zurückgibt. Im Allgemeinen sollte das Orakel als eine Blackbox abstrahiert werden. In unserem Fall bauen wir jedoch das Orakel selbst. 
   * `real` is True for a real backend, False (default) for the qasm simulator. If it is set to True, the online option is automatically set to True also.
   * `online` is True for an online IBMQ device, False (default) otherwise.
   * `backend_name` is the name of the backend you want to use; omit it if you want a default choice. Most of the time, you want to leave it blank. It makes sense only for an online experiment, because the only local backend is qasm.

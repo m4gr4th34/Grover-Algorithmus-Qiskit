@@ -47,5 +47,5 @@ gt.build_and_run(2, [3])
 >python src/grover_test.py 2 3
 ```
 
-## Results
+## Resultate
 Für n > 3 ist die Anzahl der verwendeten Gatter riesig und keines der Geräte kann liefert eine genaues Ergebnis. Die Simulation hingegen lieferen immer die richtigen Ergebnisse.

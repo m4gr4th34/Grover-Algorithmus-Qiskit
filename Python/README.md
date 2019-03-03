@@ -19,7 +19,7 @@ Um eine Bedienungsanleitung zu erhalten ist `python grover_test.py -h` auszufüh
 
 ## Ausführungsbeispiel mit einem IBMQ-Backend
 Beispiel eines Experiments mit 3 Qubits, dem markierten Zustand 5 und einem IBMQ-Backend:
-- __Python__
+- __Als Modul__
 ``` python
 import grover_test as gt
 
@@ -35,7 +35,7 @@ oder wenn spezifisch z.B. auf den ibmq_16_melbourne zugegriffen werden möchte:
 ```
 ## Ausführungsbeispiel mit einem Simulator-Backend  
 Beispiel eines Experiments mit 2 Qubits, dem markierten Zustand 3 und mit dem Simulator-Backend:
-- __Python__
+- __Als Modul__
 ``` python
 import grover_test as gt
 

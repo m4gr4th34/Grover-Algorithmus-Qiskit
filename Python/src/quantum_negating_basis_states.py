@@ -123,44 +123,44 @@ def negating_000(qc, qr):
 
 def negating_001(qc, qr):
     print("negating special state 001")
-    qc.x(qr[0])
+    qc.h(qr[0])
     qc.x(qr[1])
-    qc.h(qr[2])
-    qc.ccx(qr[0], qr[1], qr[2])
-    qc.h(qr[2])
+    qc.x(qr[2])
+    qc.ccx(qr[1], qr[2], qr[0])
+    qc.h(qr[0])
     qc.x(qr[1])
-    qc.x(qr[0])
+    qc.x(qr[2])
 
 
 def negating_010(qc, qr):
     print("negating special state 010")
     qc.x(qr[0])
+    qc.h(qr[1])
     qc.x(qr[2])
-    qc.h(qr[1])
     qc.ccx(qr[0], qr[2], qr[1])
-    qc.h(qr[1])
     qc.x(qr[0])
+    qc.h(qr[1])
     qc.x(qr[2])
 
 
 def negating_011(qc, qr):
     print("negating special state 011")
-    qc.x(qr[0])
-    qc.h(qr[2])
-    qc.ccx(qr[0], qr[1], qr[2])
-    qc.h(qr[2])
-    qc.x(qr[0])
+    qc.h(qr[0])
+    qc.x(qr[2])
+    qc.ccx(qr[1], qr[2], qr[0])
+    qc.h(qr[0])
+    qc.x(qr[2])
 
 
 def negating_100(qc, qr):
     print("negating special state 100")
+    qc.x(qr[0])
     qc.x(qr[1])
-    qc.x(qr[2])
-    qc.h(qr[0])
-    qc.ccx(qr[1], qr[2], qr[0])
-    qc.h(qr[0])
+    qc.h(qr[2])
+    qc.ccx(qr[0], qr[1], qr[2])
+    qc.x(qr[0])
     qc.x(qr[1])
-    qc.x(qr[2])
+    qc.h(qr[2])
 
 
 def negating_101(qc, qr):
@@ -174,11 +174,11 @@ def negating_101(qc, qr):
 
 def negating_110(qc, qr):
     print("negating special state 110")
-    qc.x(qr[2])
-    qc.h(qr[0])
-    qc.ccx(qr[1], qr[2], qr[0])
-    qc.h(qr[0])
-    qc.x(qr[2])
+    qc.x(qr[0])
+    qc.h(qr[2])
+    qc.ccx(qr[0], qr[1], qr[2])
+    qc.x(qr[0])
+    qc.h(qr[2])
 
 
 def negating_111(qc, qr):

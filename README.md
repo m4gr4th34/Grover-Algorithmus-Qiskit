@@ -9,7 +9,10 @@ Dieses Repository dient als Anhang zum eBook "Vom Qubit bis zum Grover-Algorithm
 ## Voraussetzungen
 Unter [Qiskit](https://github.com/Qiskit) sind Grundkonzepte sehr gut dokumentiert. Folgende Installationen werden benötigt:
 - [Anaconda](https://www.anaconda.com/download/) oder [Python](https://www.python.org/downloads/) und [Jupyter-Notebook](https://github.com/jupyter/notebook)
-- [Qiskit](https://github.com/Qiskit/qiskit-tutorial/blob/master/INSTALL.md)
+- [Qiskit](https://github.com/Qiskit/qiskit-tutorial/blob/master/INSTALL.md) __Version 0.6.0__
+```
+pip install qiskit==0.6.0
+```
 - [IBM Q Account](https://www.ibm.com/account/reg/us-en/signup?formid=urx-19776&target=https%3A%2F%2Fwww.ibm.com%2Fch-de%2F%3Far%3D1)
 
 ## [Jupyter-Notebook](https://github.com/soultanis/Grover-Algorithmus-Qiskit/tree/master/Jupyter-Notebook)

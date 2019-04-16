@@ -7,6 +7,10 @@
 # $ git config --global mergetool.keepBackup false
 *.orig
 
+# file: ~/.gitignore_global
+.DS_Store
+.idea
+
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
 *.BASE.*

@@ -14,8 +14,8 @@ Um eine Bedienungsanleitung zu erhalten ist `python grover_test.py -h` auszufüh
 * `backend_name` ist der Name des Backends, das verwendet wird. Falls die Variable leer gelassen wird, wird eine Standartauswahl genommen. Ist nur für online Backends sinnvoll.
 * `--plot` plottet das Histogramm des Resultats.
 * `--img_dir IMG_DIR` speichert den Schaltkreis als Bild in das angegebene Verzeichnis ab.
-* `i` gibt nur Informationen über die Schaltung für ein spezifisches Backend ohne es auszuführen.
-* `h` gibt diese Bedienungsanleitung aus.
+* `-i` gibt nur Informationen über die Schaltung für ein spezifisches Backend ohne es auszuführen.
+* `-h` gibt diese Bedienungsanleitung aus.
 
 ## Ausführungsbeispiel mit einem IBMQ-Backend
 Beispiel eines Experiments mit 3 Qubits, dem markierten Zustand 5 und einem IBMQ-Backend:
